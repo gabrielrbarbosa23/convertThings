@@ -1,0 +1,105 @@
+.home {
+    display: flex;
+    background: #1A120B;
+    min-height: 100vh;
+    width: 100%;
+    color: #efefef;
+    position: relative;
+}
+
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 15%;
+    width: 200px;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+}
+
+.lamp{
+    width: 100%;
+}
+
+.light{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px ;
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.h1div {
+    position: absolute;
+    color: #1A120B;
+    transform: translate(-50%, 30%);
+    font-size: 33px;
+    top: 54%;
+    left: 50%;
+    z-index: 2;
+    cursor: default;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 38%;
+    gap: 130px;
+    margin-top: 140px;
+}
+
+.title h1 {
+    cursor: default;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.divButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.h1button {
+    color: #efefef;
+    cursor: default;
+}
+
+.divButton button{
+    background: #efefef;
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.divButton button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: -13px;
+    margin-left: -21px;
+    transition: all 0.5s;
+}
+.divButton button.active {
+    background: green;
+}
+
+.divButton button.active span {
+    background: white;
+    margin-left: -2px;
+}
+.on{
+    opacity: 1;
+}

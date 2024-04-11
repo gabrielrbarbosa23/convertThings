@@ -1,0 +1,51 @@
+.content-cur {
+    background-color: #1A120B;
+    height: 100vh;
+    width: 100%;
+}
+
+.inputs-cur {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs-cur h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.inputs-cur h2 {
+    color: #fff;
+}
+
+.input-cur {
+    font-size: 14px;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #fff;
+    color: rgb(14, 14, 16);
+    background: #fff;
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.div-inputs {
+    display: flex;
+}
+
+.firstRow {
+    display: flex;
+    gap: 10px;
+}
+
+.secondRow {
+    display: flex;
+    gap: 10px;
+}
